@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   float salario, resultado;
+   const float bonus = 15.0/100.0;
+   
+   cout<<"Informe o valor do salário: "<<endl;
+   cin>>salario;
+   
+   resultado = salario + (salario * bonus );
+   
+   cout<<"O valor do salário com o bônus será de "<<resultado<<endl;
+    return 0;
+}
