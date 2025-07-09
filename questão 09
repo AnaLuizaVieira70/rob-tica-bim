@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+   int quadrado (int numero1){
+       return numero1*numero1;
+   }
+
+int main() {
+    int num;
+    cout<< "Informe um numero: "<<endl;
+    cin >> num;
+    
+    int resultado = quadrado(num);
+    cout<< "o quadrado de "<< num << " e "<<resultado<<endl;
+    return 0;
+}
