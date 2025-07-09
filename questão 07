@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+void ehpar(int numero1) {
+    if (numero1 % 2 == 0) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
+    }
+}
+
+int main() {
+    int num;
+    
+    cout << "Informe um numero: ";
+    cin >> num;
+    
+    ehpar(num);
+
+    return 0;
+}
