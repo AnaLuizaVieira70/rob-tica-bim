@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double raio, area;
+    const double PI = 3.1415926535;
+
+    cout << "Informe o valor do raio do círculo: ";
+    cin >> raio;
+
+    area = PI * raio * raio;
+
+    cout << "Área do círculo é: " << area << endl;
+    return 0;
+}
