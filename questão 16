@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+    void trocar(int &a, int &b){
+        int caixa = 0;
+        caixa = a;
+        a = b;
+        b = caixa;
+        cout<<"Os valores foram trocados \n"<<"Agora numero1 é "<<b<<" e numero2 é "<<a<<endl;
+    }
+
+int main() {
+    int numero1, numero2;
+
+    cout<<"Informe um valor: "<<endl;
+    cin>> numero1;
+    cout<<"Informe outro valor: "<<endl;
+    cin>> numero2;
+    cout<<"Os valores fornecidos foram respectivamente "<<numero1<<" e "<<numero2<<endl;
+    
+    trocar(numero1,numero2);
+
+    return 0;
+}
