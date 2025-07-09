@@ -1,0 +1,8 @@
+#pragma once
+#include <iostream>
+using namespace std;
+
+void mostrar() {
+    cout << "Função com pragma once" << endl;
+return 0;
+}
