@@ -12,7 +12,7 @@ void imprimir(Pessoa* p) {
 }
 
 int main() {
-    Pessoa p = {"Maria", 25, 1.65f};
+    Pessoa p = {"Luiza", 25, 1.65f};
     imprimir(&p);
     return 0;
 }
