@@ -1,0 +1,8 @@
+#pragma once
+#include <iostream>
+using namespace std;
+
+void mostrarInfo() {
+    cout << "Informações do programa." << endl;
+return 0;
+}
