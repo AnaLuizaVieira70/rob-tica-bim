@@ -1,0 +1,20 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+ int numero1, numero2;
+ cout << "informe um numero: ";
+ cin >> numero1;
+ cout << "informe um numero: ";
+ cin >> numero2;
+
+ cout << "Soma: " << numero1 + numero2 <<endl;
+ cout << "Subtracao: " << numero1 - numero2 <<endl;
+ cout << "Multiplicacao: " <<numero1 * numero2 <<endl;
+ cout << "Divisao: " <<numero1 / numero2 <<endl;
+
+ return 0;
+}
