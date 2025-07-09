@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int idade = 10;
+    float numero1 = 7.7;
+    double numero2 = 8.82738474;
+    short int numero3 = 5432; 
+    long int numero4 = 987654321;
+    long long int numero5 = 9876543210987654321LL; 
+    unsigned int numero6 = 90785634;
+    string nome = "Luiza"; 
+    char caractere = 'A'; 
+    bool boleano = true;
+
+    cout << "tipo int: " << idade << endl;
+    cout << "tipo float: " << numero1 << endl;
+    cout << "tipo double: " << numero2 << endl;
+    cout << "tipo short int: " << numero3 << endl;
+    cout << "tipo long int: " << numero4 << endl;
+    cout << "tipo long long int: " << numero5 << endl;
+    cout << "tipo unsigned int: " << numero6 << endl;
+    cout << "tipo string: " << nome << endl;
+    cout << "tipo char: " << caractere << endl;
+    cout << "tipo bool: " << boleano << endl;
+
+    return 0;
+}
